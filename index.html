@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Romiti Juan Bautista · Full Stack & Graphic Designer</title>
+  <meta name="description" content="Portfolio de Abdul Rehman Ujjan — Full Stack Developer y Graphic Designer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV FLOTANTE -->
+  <nav class="floating-nav" aria-label="Navegación lateral">
+    <a href="#home" aria-label="Inicio">🏠</a>
+    <a href="#about" aria-label="Sobre mí">👤</a>
+    <a href="#portfolio" aria-label="Portfolio">💼</a>
+    <a href="#contact" aria-label="Contacto">📞</a>
+  </nav>
+
+  <main class="page">
+
+    <!-- HERO -->
+    <section class="card" id="home">
+      <header class="topbar">
+        <a href="#home" class="logo">ARU</a>
+        <ul class="topnav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <a href="#contact" class="btn-pill">Contact Me</a>
+      </header>
+
+      <div class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Hola, soy</p>
+          <h1>Juan Bautista<br />Romiti</h1>
+          <span class="tag">Full Stack Developer / Web &amp; Graphic Designer</span>
+          <p class="lead">
+            Skills: Full Stack Development, WordPress website development and management,
+            web designing, Lifetime SSL Solutions, Figma &amp; Adobe XD.
+          </p>
+          <p class="more">Learn More <a href="#about">About Me</a></p>
+        </div>
+
+        <div class="hero-photo">
+          <div class="avatar">
+            <img src="jb.png" alt="Romiti Juan Bautista" />
+          </div>
+          <p class="location">📍 Zavalla, Santa Fe</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="card" id="about">
+      <h2 class="section-title">About Me</h2>
+      <p class="center-lead">
+        I'm <strong>Abdul Rehman Ujjan</strong>, Full Stack developer / Graphic Designer
+      </p>
+      <p class="center-text">
+        I am a skilled Full Stack Developer with a passion for web development and design.
+        Specializing in WordPress, I create visually stunning websites and offer lifetime SSL solutions
+        for secure experiences. Proficient in popular plugins like Elementor and Contact Form 7,
+        I ensure seamless functionality and exceptional user experiences.
+      </p>
+
+      <h3 class="subtitle">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill">💎 Full Stack Development</div>
+        <div class="skill">💎 WordPress Development</div>
+        <div class="skill">💎 Graphic Designing</div>
+        <div class="skill">💎 Web Designing</div>
+        <div class="skill">💎 Copywriting</div>
+        <div class="skill">💎 Lifetime SSL Solution</div>
+        <div class="skill locked">🔒 Game Development</div>
+        <div class="skill locked">🔒 Blockchain Development</div>
+        <div class="skill locked">🔒 AI, Web3 &amp; Metaverse</div>
+        <div class="skill muted">Learning...</div>
+        <div class="skill muted">Learning...</div>
+        <div class="skill muted">Learning...</div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="card" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio">
+        <ul class="filters">
+          <li><button class="filter active">All</button></li>
+          <li><button class="filter">Web Design</button></li>
+          <li><button class="filter">Development</button></li>
+          <li><button class="filter">Graphic Design</button></li>
+          <li><button class="filter">Wordpress</button></li>
+          <li><button class="filter">Copywriting</button></li>
+        </ul>
+
+        <div class="works">
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="card" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-grid">
+        <div class="info-box">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>✉️ juanromiti2014@gmail.com</li>
+            <li>📘 Romiti, Juan Bautista</li>
+          </ul>
+
+          <h3>Social Handles</h3>
+          <ul>
+            <li>📷 juan.romiti</li>
+            <li>🐦 juan.romiti32</li>
+            <li>💼 </li>
+          </ul>
+        </div>
+
+        <form class="form-box" onsubmit="event.preventDefault();">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea rows="6" placeholder="Message"></textarea>
+          <button type="submit" class="btn-send">Send →</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="foot-left">
+        <span class="logo">ARU</span>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <p class="copy">© 2026 — Romiti Juan Bautista</p>
+      <div class="socials">
+        <span>in</span><span>ig</span><span>tw</span><span>fb</span>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
